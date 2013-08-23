@@ -13,7 +13,7 @@ class cinder::api (
   $cinder_rate_limits = undef
 ) {
 
-  include cinder::params
+  #include cinder::params
 
   if ($::cinder::params::api_package) { 
     $api_package = $::cinder::params::api_package
